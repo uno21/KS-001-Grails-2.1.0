@@ -5,6 +5,7 @@ Este proyecto tiene como intención ser la base para proyectos rápidos, prototi
 ## El stack
 
 - Grails 2.1.0
+- Bootstrap 2.0.0
 
 ## Cómo configurarlo
 
@@ -15,6 +16,10 @@ Este proyecto tiene como intención ser la base para proyectos rápidos, prototi
 - Cambiar el nombre de la aplicación en application.properties
 
     app.name=my_app
+
+- Cambiar el número de versión de la aplicación
+
+    grails set-version 1.0
 
 ## Cómo repetir el Kickstart
 
