@@ -14,7 +14,11 @@ Este proyecto tiene como intención ser la base para proyectos rápidos, prototi
 
     grails create-app KS-001-Grails-2.1.0
     cd KS-001-Grails-2.1.0
+    
     git init
     grails integrate-with --git
     grails integrate-with --eclipse
     echo '/target-eclipse/' >> .gitignore
+    
+    grails install-plugin kickstart-with-bootstrap
+    grails kickstartWithBootstrap
